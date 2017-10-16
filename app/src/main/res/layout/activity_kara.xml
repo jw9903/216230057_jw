@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a216230057.kara">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="348dp"
+        android:layout_height="157dp"
+        android:text="카라마츠를 선택한 당신! 오소마츠상에서 파란색은 카라마츠의 색이죠. 마츠노 가의 차남. 굵은 눈썹이 특징. 늘 자신만의 세계에 빠져 폼을 잡고 있습니다. 쿨한 성격에 늘 폼을 잡지만 주위 사람들로부터 안쓰러움을 자아낼 뿐입니다. ㅠㅠ 참고로 카라마츠는 저의 차애캐 입니다. 78번 은진=카라마츠 입니다."
+        android:textSize="37px"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:text="Main"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="101dp"
+        android:layout_height="48dp"
+        android:text="Developer"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="240dp"
+        android:layout_height="33dp"
+        android:text="파란색은 마츠노 카라마츠!"
+        android:textSize="40px"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="334dp"
+        android:layout_height="197dp"
+        app:srcCompat="@drawable/kara"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="72dp" />
+</android.support.constraint.ConstraintLayout>
+

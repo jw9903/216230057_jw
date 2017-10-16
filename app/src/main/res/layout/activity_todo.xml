@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a216230057.todo">
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="334dp"
+        android:layout_height="197dp"
+        app:srcCompat="@drawable/todo"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="348dp"
+        android:layout_height="157dp"
+        android:text="토도마츠를 선택한 당신! 오소마츠상에서 분홍색은 토도마츠의 색이죠. 마츠노 가의 막내. 니트, 계산이 빠르고, 빈틈없고, 정이 없습니다. 애칭은 톳티. 형제들과 달리 쵸로마츠와 같이 사회적 위치에 신경을 쓰며 밑바닥에서 벗어나려 애씁니다. 은근히 형제들을 깔보는 경향이 있으며 어리광을 잘 부립니다."
+        android:textSize="37px"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:text="Main"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="101dp"
+        android:layout_height="48dp"
+        android:text="Developer"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="243dp"
+        android:layout_height="37dp"
+        android:text="분홍색은 마츠노 토도마츠!"
+        android:textSize="40px"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</android.support.constraint.ConstraintLayout>

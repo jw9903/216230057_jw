@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a216230057.oso">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="348dp"
+        android:layout_height="157dp"
+        android:text="빨간색을 선택한 당신! 오소마츠상에서 빨간색은 오소마츠의 색이죠. 마츠노 가의 장남. 니트, 동정. 초등학생 멘탈의 기적의 바보. 파칭고, 경마, 여자애를 좋아합니다. 6쌍둥이의 리더 격으로 무슨 일이든 앞장서서 적당히 때우지만 가끔은 장남다운 면모를 보이기도 합니다. 참고로 오소마츠는 제 최애캐 입니다."
+        android:textSize="37px"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="334dp"
+        android:layout_height="197dp"
+        app:srcCompat="@drawable/oso"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:text="Main"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="101dp"
+        android:layout_height="48dp"
+        android:text="Developer"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="249dp"
+        android:layout_height="33dp"
+        android:text="빨간색은 마츠노 오소마츠!"
+        android:textSize="40px"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="16dp" />
+</android.support.constraint.ConstraintLayout>

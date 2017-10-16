@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a216230057.ichi">
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="334dp"
+        android:layout_height="197dp"
+        app:srcCompat="@drawable/ichi"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="348dp"
+        android:layout_height="157dp"
+        android:text="보라색을 선택한 당신! 오소마츠상에서 보라색은 이치마츠의 색이죠.마츠노가의 사남. 마이페이스에 냉소적이고 빈정거리기 좋아하는 성격으로 늘 부스스한 머리에 트레이닝복 차림입니다. 태연하게 독설을 잘 내뱉는다. 고양이를 좋아해서 고양이와 친구가 됩니댜."
+        android:textSize="37px"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:text="Main"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="101dp"
+        android:layout_height="48dp"
+        android:text="Developer"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="254dp"
+        android:layout_height="37dp"
+        android:text="보라색은 마츠노 이치마츠!"
+        android:textSize="40px"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+</android.support.constraint.ConstraintLayout>
+
